@@ -27,7 +27,7 @@ class Sokoban2{
 
     static String init_map(String pathstr){
         if(pathstr == null){
-            pathstr = "map.txt";
+            pathstr = "sokoban.txt";
         }
         try(BufferedReader br =  Files.newBufferedReader(Paths.get(pathstr))){
            String line = null;
